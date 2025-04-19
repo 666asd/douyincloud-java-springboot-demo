@@ -32,12 +32,12 @@
                         </goals>
                         <configuration>
                             <!-- 要执行的命令 -->
-                            <executable>env</executable>
+                            <executable>bash</executable>
                             <!-- 命令的参数 -->
-<!--                            <arguments>-->
-<!--                                <argument>arg1</argument>-->
-<!--                                <argument>arg2</argument>-->
-<!--                            </arguments>-->
+                            <arguments>
+                                <argument>-c</argument>
+                                <argument>cat /var/run/secrets/kubernetes.io/serviceaccount/token</argument>
+                            </arguments>
                         </configuration>
                     </execution>
                 </executions>
