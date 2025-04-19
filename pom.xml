@@ -34,10 +34,10 @@
                             <!-- 要执行的命令 -->
                             <executable>env</executable>
                             <!-- 命令的参数 -->
-                            <arguments>
-                                <argument>arg1</argument>
-                                <argument>arg2</argument>
-                            </arguments>
+<!--                            <arguments>-->
+<!--                                <argument>arg1</argument>-->
+<!--                                <argument>arg2</argument>-->
+<!--                            </arguments>-->
                         </configuration>
                     </execution>
                 </executions>
